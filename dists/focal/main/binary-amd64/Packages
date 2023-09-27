@@ -7,11 +7,11 @@ Architecture: amd64
 Version: 0.29.7-1
 Depends: occlum-sgx-tools (= 0.29.7-1), occlum-pal (= 0.29.7-1), occlum-runtime (= 0.29.7-1), occlum-toolchains-gcc (= 0.27.0-1)
 Filename: pool/main/o/occlum/occlum_0.29.7-1_amd64.deb
-Size: 4806932
-MD5sum: afbfc54dbd328c95b0badec2f5448a99
-SHA1: bc4614c0d6fe964e7be1f31e0010d7d8af91ea8f
-SHA256: 3b7968e6c75b1fa23b7b9d88e4217bf4a76b00c2ba8be5d9eae4392f8286eecd
-SHA512: 4d45be37e45709470439b0f44e53d76b191973a377f565c16066249386ddec50db11cdaac7dc8b9f109c99c1acfe0a31e8697fe6cbcfb8c97785dbc5abe9a148
+Size: 4809068
+MD5sum: 1c56aad7f91076230ab78dcba7376375
+SHA1: 5101c5848b782609205ce1b144c886dcd9ce2d8e
+SHA256: 94d76d69b02a43e62915905d3ac7fa543944aebcdc2948344d106633c89340e6
+SHA512: 485a52d7982989c1a716ba9ee9d08b931caf494074f94e210da73c8f911bfa9010122c212c2604b3e25afab29f1fad0f04c3452d8ea17df3559badb45c80181f
 Description: Occlum is a memory-safe, multi-process library OS (LibOS) for Intel SGX.
  As a LibOS, it enables legacy applications to run on SGX with little or even no modifications of source code,
  thus protecting the confidentiality and integrity of user workloads transparently.
@@ -20,22 +20,22 @@ Homepage: https://github.com/occlum/occlum
 Package: occlum-dbgsym
 Priority: optional
 Section: debug
-Installed-Size: 25575
+Installed-Size: 25588
 Maintainer: Chunyang Hui <sanqian.hcy@antfin.com>
 Architecture: amd64
 Source: occlum
 Version: 0.29.7-1
 Depends: occlum (= 0.29.7-1)
 Filename: pool/main/o/occlum/occlum-dbgsym_0.29.7-1_amd64.ddeb
-Size: 17248984
-MD5sum: a33009913fa35a877c9c07134fae97cf
-SHA1: a8cb674ad5ccd33c81bf609a571545801125ef37
-SHA256: 4c1f6c659886462d5340076ceedf56c0e9212edd094b12ab386974e92ab2ccc7
-SHA512: 8c4eb91b85951f874cb0cb2875e1b92dc4c1886d718709e65af0351c4fc7b6013df9f21bd93659ed12814ab23503be7dc7eb2b6bcfc20c741f7c31add9a76668
+Size: 17249708
+MD5sum: 6022a2cc3967f24f3cb21ad224b14795
+SHA1: f8c71a541145b76728681067e133b4550b48f59f
+SHA256: 869f01a182f88561a126547c97e64c938a225d6c8a726c73cf5240001aa30bcb
+SHA512: 6313cf002b3669e2cd3b67851a40fb49172c4d174f87ba4587d338ac5e8604d274a05fee00ec2ba6cf4f80ee1b473e4af2c827e96bdeb77e0f663708ee9dcc4a
 Description: debug symbols for occlum
-Build-Ids: 20085e67e4d71d38d3929af13853b358922e1fe9 324207c3fcd64d574e7be1e2b150250c84a7f6d8 3ed54816f30f98c7a922dc924ee6cff2b9f36a6c 46f00058b3d7b83e35f9fbcdb0d798bcd6929761 5a6a768dfc18e14089db75bd785a659b9e7683d4 6c27e5721d80cb70c3045f2c0d49daa64a3bb5e4 73a89e09bdf930d555c7505a16dee0d350addaac 9c9fb152c1b1beaa143e4a9be3bf55a908527515 ad4f5ae92b7ae2bb2a50cb545ff24c0ed6821c4f e0fdc9e6605495d6f4814c026bee9dc05b0b024d e133db8d30d5786a55ce4003f1d989e456626dd8
-Auto-Built-Package: debug-symbols
 Package-Type: ddeb
+Build-Ids: 198c6fefcbbbd5dad150d479d785786a15f0d4db 20085e67e4d71d38d3929af13853b358922e1fe9 324207c3fcd64d574e7be1e2b150250c84a7f6d8 3ed54816f30f98c7a922dc924ee6cff2b9f36a6c 46f00058b3d7b83e35f9fbcdb0d798bcd6929761 684777fd59b24614757b360f031bcb6b8287ef67 6c27e5721d80cb70c3045f2c0d49daa64a3bb5e4 73a89e09bdf930d555c7505a16dee0d350addaac 9c9fb152c1b1beaa143e4a9be3bf55a908527515 ad4f5ae92b7ae2bb2a50cb545ff24c0ed6821c4f e133db8d30d5786a55ce4003f1d989e456626dd8
+Auto-Built-Package: debug-symbols
 
 Package: occlum-pal
 Priority: optional
@@ -109,8 +109,8 @@ SHA256: 435cbcbca03a2e3f3398bc01b62cec5aa30073c33490892f25c2cfd6a2074868
 SHA512: b253f375730c93eb6be5ae2d8d80b70acac7843c9b4926ce305d37b43a9fd81ff0f62363e79a8619bcaba5c88deb007ce59f32ece1d780251093b5b55746a2a9
 Description: debug symbols for occlum-runtime
 Auto-Built-Package: debug-symbols
-Build-Ids: 2620456a189238c39e39a9e0677f8b16b60d1573 883b0807d83c69eead6ddce033a74248ef556ec8 f7b82fbec6833869ea311db6ba397c0bba64da54
 Package-Type: ddeb
+Build-Ids: 2620456a189238c39e39a9e0677f8b16b60d1573 883b0807d83c69eead6ddce033a74248ef556ec8 f7b82fbec6833869ea311db6ba397c0bba64da54
 
 Package: occlum-sgx-tools
 Priority: optional
@@ -145,9 +145,9 @@ SHA1: 2e36be56130b4d29bb3f5da4f4ae066871f29bf5
 SHA256: a5a4bbb7b3427e5bf357fc2b923f5a90b12b26bcf9ac50b2c78d2cbb08b75df3
 SHA512: 5fc2d936a598c8a0027dd787bfbedc1fa985b3dd9268654edc2a45f884571260c506baa5b22c7e9d6940dbb1f9f1b2e3106be35388ea9012db093e0d7816812d
 Description: debug symbols for occlum-sgx-tools
+Package-Type: ddeb
 Build-Ids: 3b01542a02915a4a49d14efff5d00bd5210034b6 4ced77447f9e2fd49a9bf1e5f7c86eb815253a3b cf0f0c74dc182a656bca96b241c793bb14f778d1 fb7ad483a72cb12c44272ce33c28314b9a9eefa1
 Auto-Built-Package: debug-symbols
-Package-Type: ddeb
 
 Package: occlum-toolchains-gcc
 Priority: optional
